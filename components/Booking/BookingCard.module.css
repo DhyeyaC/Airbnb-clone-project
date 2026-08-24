@@ -1,0 +1,272 @@
+.card {
+  position: sticky;
+  top: 96px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  background: white;
+}
+
+.offer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: -1px -1px 22px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border-light);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.offerTag {
+  color: #4b9b55;
+  font-size: 20px;
+  transform: rotate(45deg);
+}
+
+.offer p {
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.offer a {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.offer button {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  color: var(--color-text-primary);
+  background: var(--color-bg-subtle);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Price row */
+.priceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.amount {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.perNight {
+  font-size: 16px;
+  color: var(--color-text-primary);
+}
+
+.ratingSmall {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+}
+
+.ratingValue {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.reviewCount {
+  color: var(--color-text-secondary);
+}
+
+/* Date pickers */
+.datePicker {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.dateGrid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.dateField {
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.dateField:first-child {
+  border-radius: 8px 0 0 0;
+}
+
+.dateField:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+.dateDivider {
+  background: var(--color-border);
+  width: 1px;
+}
+
+.dateLabel {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.dateInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  background: transparent;
+  cursor: pointer;
+}
+
+.guestsField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+}
+
+.guestsRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.guestControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.guestBtn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: white;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+  font-family: var(--font-sans);
+}
+
+.guestBtn:hover:not(:disabled) {
+  border-color: var(--color-text-primary);
+  color: var(--color-text-primary);
+}
+
+.guestBtn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.guestNum {
+  font-size: 15px;
+  font-weight: 400;
+  min-width: 16px;
+  text-align: center;
+}
+
+/* Reserve button */
+.reserveBtn {
+  width: 100%;
+  background: linear-gradient(to right, #e31c5f, #ff385c);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  margin-bottom: 12px;
+}
+
+.reserveBtn:hover {
+  background: linear-gradient(to right, #c41651, #e31c5f);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 56, 92, 0.35);
+}
+
+.chargeNote {
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  margin-bottom: 20px;
+}
+
+/* Price breakdown */
+.breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.breakdownRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.underlineBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+.underlineBtn:hover {
+  color: var(--color-text-secondary);
+}
+
+.totalDivider {
+  border: none;
+  border-top: 1px solid var(--color-border-light);
+  margin: 4px 0;
+}
+
+.totalRow {
+  font-size: 16px;
+  font-weight: 600;
+}

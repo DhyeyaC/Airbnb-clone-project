@@ -1,0 +1,43 @@
+add this section at last
+
+this is to be included as well upon scrolling the options
+
+i need the images to be same as that of the ones listed in the screenshot
+
+can you access the content from the above pasted link
+
+how do i make its content accessible for you so as to generate the exact same output
+
+i can do none of these
+
+this is the start of the web page. Make it look exactly the same
+
+so do i screenshot the images and then give them to you
+
+here, like this?
+
+this is the screenshot of the entire web page. Replicate it
+
+import the airbnb logo as it is
+
+give this effect to the rating
+
+no this is not the same design, use black leaves
+
+the leaves should grow right to left rather than left to right
+
+no use this effect
+
+here, listen. There are topics like bedroom, bathroom, gym etc. Use relevant pics according to that. Right now, there is a swimming pool picture instead of a bathroom
+
+change all the irrelevant images. You changed only one specific thing that i mentioned
+
+run the airbnb thing on another port not on 3000
+
+ok so now where do i access the airbnb
+
+what port is this running
+
+yes about 5001
+
+now, create a new file named "Prompts" in visual studio code, which contains all the prompts that i provided to you.

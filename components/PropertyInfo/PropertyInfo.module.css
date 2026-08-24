@@ -1,0 +1,132 @@
+.titleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  line-height: 1.3;
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.actionBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  text-decoration: underline;
+  transition: background var(--transition-fast);
+}
+
+.actionBtn:hover {
+  background: var(--color-bg-subtle);
+}
+
+/* Meta */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.metaLeft {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.ratingRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.starIcon {
+  color: var(--color-text-primary);
+}
+
+.dot {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.reviewsLink {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  font-family: var(--font-sans);
+  padding: 0;
+}
+
+.reviewsLink:hover {
+  color: var(--color-text-secondary);
+}
+
+.badge {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.locationLink {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
+.locationLink:hover {
+  color: var(--color-text-secondary);
+}
+
+/* Details */
+.details {
+  padding: 24px 0;
+}
+
+.detailsTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+}
+
+.detailsList {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  flex-wrap: wrap;
+}
